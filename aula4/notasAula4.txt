@@ -1,0 +1,13 @@
+Operadores especiais de atribuição
+
+Operador        Exemplo         Equivalente
++=              x += 1          x = x + 1       
+-=              x -= 1          x = x - 1      
+*=              x *= 2          x = x * 2      
+/=              x /= 2          x = x / 2      
+**=             x **= 2         x = x ** 2       
+//=             x //= 4         x = x // 4      
+
+- Podemos inserir laços dentro de outro laço
+- Não existe limite para quantos laços podemos colocar dentro de outro
+- Podemos misturar while e for
