@@ -1,0 +1,15 @@
+Definição
+
+- Funções são rotinas de códigos que podem ser executadas quando têm seu nome invocado dentro do programa
+- Sabia que você tem trabalhando com funções desde as aulas anteriores?
+- Print, input, int, range etc.
+
+Parâmetros opcionais
+
+- Podemos dar maior flexibilidade para nossas funções permitindo que nem sempre se use todos os parâmetros na chamada da função
+def soma3(x = 0, y =0, z=0):
+    res = x + y + z
+    print(res)
+ é necessario inserir um valor inicial para o parametro que sera determinado como opcional, chamando sem o valor no parameto ele assume o declarado inical da funcao
+
+ 
