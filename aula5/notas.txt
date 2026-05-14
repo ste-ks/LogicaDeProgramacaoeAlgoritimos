@@ -12,4 +12,33 @@ def soma3(x = 0, y =0, z=0):
     print(res)
  é necessario inserir um valor inicial para o parametro que sera determinado como opcional, chamando sem o valor no parameto ele assume o declarado inical da funcao
 
- 
+----------------------------------------------------------------------------------------------------------------------------------
+Escopo de variáveis
+
+- Um escopo é a propriedade que determina onde uma variável pode ser utilizada dentro de um programa
+
+Escopo local
+
+· Criado sempre que uma função é chamada
+· Variáveis criadas, seja no campo de um parâmetro ou dentro do corpo da função, fazem parte do escopo local daquela função e são chamadas de variáveis locais. Essas variáveis só existem dentro daquela própria função
+
+Escopo global
+
+- Criado no programa principal
+- Variáveis globais pertencem a um escopo global e são variáveis criadas dentro do programa principal. Uma variável global existe também em todas as funções invocadas ao longo do programa
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Função x procedimento
+
+· Procedimento (procedure) - uma rotina sem retorno
+
+- Função - uma rotina que retorna um dado a quem a invocou
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Função lambda
+
+- Funções mais simples, sem nome, chamadas de funções lambda
+- Elas podem ser escritas em uma só linha de código e dentro do programa principal
