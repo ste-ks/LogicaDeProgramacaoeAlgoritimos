@@ -1,0 +1,112 @@
+Tupla
+- Estrutura de dados estática
+- A tupla é imutável
+- Representada em Python por parênteses ()
+- Nao suporta atribuicao
+
+        mochila = ('item1','item2','item3','item4')
+        print (f'{mochila[0]}')
+        print (f'{mochila[1]}')
+        print (f'{mochila[2]}')
+        print (f'{mochila[3]}')
+        print (f'{mochila[:2]}')
+        print (f'{mochila[2:]}')
+        print (f'{mochila[-1]}')
+
+# --------------------------------------------------------------------------------------------------------------------
+
+Listas
+
+· Estrutura de dados dinâmica
+- Podemos alterar dados e tamanho
+- Indexadas por valores numéricos inteiros
+- Representadas em Python por colchetes []
+
+mochila = ['item1','item2','item3','item4']
+print (f'{mochila}')
+mochila[1] = 'novo item'
+print (f'{mochila}')
+
+# -------------------------------------------
+
+O que são métodos?
+
+- Uma lista é um objeto de uma classe dentro do Python
+· Paradigmas de programação orientada a objetos (POO)
+· Método é equivalente à função
+· mochila.append('Ovos')
+· variável.funcão(parâmetro)
+
+# --------------------------------------------------------------------------------------------------------------------
+
+Strings dentro de listas
+========================
+
+Índices da Lista:
+               [0]     [1]       [2]        [3]
+mochila = ['Machado', 'Camisa', 'Bacon', 'Abacate']
+
+Detalhamento do índice [0] (A string também possui índices):
+
+ Machado
+ 0123456
+
+mochila[0][0] -> 'M'
+
+Dupla indexação
+- O primeiro índice é referente a cada item da lista
+- O segundo índice é referente a cada caractere da string
+- Assim, podemos acessar não só cada dado dentro da lista, mas também cada caractere das strings de um índice da lista
+
+Listas dentro de listas
+mochila = [['Cebola' , 0.39], ['Tomate', 0.49], [ 'Maçã', 0.89]]
+
+# --------------------------------------------------------------------------------------------------------------------
+
+Dicionários
+ - Estrutura de dados dinâmica
+ - Podemos alterar dados e tamanho
+ - Indexados por chaves (palavras-chave) " Representados em Python por chaves
+
+Métodos para dicionários
+ - values: obtém somente os dados
+ - keys: obtém somente as chaves
+ - items: obtém o par chave:dado
+
+# --------------------------------------------------------------------------------------------------------------------
+
+Metodos em string
+
+
+Relação de métodos para uso com strings
+=======================================
+
+Função/método       | Objetivo
+------------------------------------------------------------------------------------------
+startswith          | Verifica se caracteres existem no início da string
+endswith            | Verifica se caracteres existem no final da string
+lower               | Converte string para minúscula
+upper               | Converte string para maiúscula
+find                | Busca a primeira ocorrência de um padrão de caracteres em uma string
+rfind               | Idêntico ao find, mas inicia a busca da direita para a esquerda
+center              | Centraliza uma string
+ljust, rjust        | Ajustam uma string com alinhamentos à esquerda ou à direita, respectivamente
+split               | Divide uma string
+replace             | Substitui caracteres em uma string
+lstrip, rstrip      | Removem espaços em branco à esquerda ou à direita, respectivamente
+strip               | Remove espaços em branco das extremidades
+
+============================================================
+4. RELAÇÃO DE MÉTODOS PARA VALIDAÇÃO DE DADOS EM STRINGS
+============================================================
+
+Função/método       | Retorna True para uma string com...
+------------------------------------------------------------------------------------------
+isalnum             | Somente letras e números; acentos são aceitos
+isalpha             | Somente letras; acentos são aceitos
+isdigit             | Somente números
+isnumeric           | Somente números; aceita também caracteres matemáticos, como frações
+isupper             | Somente caracteres maiúsculos
+islower             | Somente caracteres minúsculos
+isspace             | Somente espaços; inclui TAB, quebra de linha, retorno etc.
+isprintable         | Somente caracteres possíveis de serem impressos na tela
